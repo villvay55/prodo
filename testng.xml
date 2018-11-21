@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+<parameter name="appURL" value="http://stage.prodoscore.com"/>
+<parameter name="browserType" value="chrome"/>
+  <test name="Gudppl Automation Event">
+     <classes>
+      <class name="com.prod.Testcases.DashBoardTestCase"/>
+      
+    </classes>
+  </test>
+</suite>

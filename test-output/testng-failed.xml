@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]">
+  <parameter name="appURL" value="http://stage.prodoscore.com"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="Gudppl Automation Event(failed)">
+    <classes>
+      <class name="com.prod.Testcases.DashBoardTestCase">
+        <methods>
+          <include name="testSignIn"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.prod.Testcases.DashBoardTestCase -->
+    </classes>
+  </test> <!-- Gudppl Automation Event(failed) -->
+</suite> <!-- Failed suite [Automation] -->

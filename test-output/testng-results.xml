@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="106064" started-at="2018-11-17T10:26:08Z" finished-at="2018-11-17T10:27:54Z">
+    <groups>
+    </groups>
+    <test name="Gudppl Automation Event" duration-ms="106064" started-at="2018-11-17T10:26:08Z" finished-at="2018-11-17T10:27:54Z">
+      <class name="com.prod.Testcases.DashBoardTestCase">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.prod.Testcases.DashBoardTestCase@7c16905e]" name="initializeTestBaseSetup" is-config="true" duration-ms="8317" started-at="2018-11-17T15:56:08Z" finished-at="2018-11-17T15:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://stage.prodoscore.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prod.Testcases.DashBoardTestCase@7c16905e]" name="setUp" is-config="true" duration-ms="1" started-at="2018-11-17T15:56:17Z" finished-at="2018-11-17T15:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSignIn()[pri:0, instance:com.prod.Testcases.DashBoardTestCase@7c16905e]" name="testSignIn" duration-ms="97093" started-at="2018-11-17T15:56:17Z" finished-at="2018-11-17T15:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.prod.Testcases.DashBoardTestCase@7c16905e]" name="tearDown" is-config="true" duration-ms="641" started-at="2018-11-17T15:57:54Z" finished-at="2018-11-17T15:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.prod.Testcases.DashBoardTestCase -->
+    </test> <!-- Gudppl Automation Event -->
+  </suite> <!-- Automation -->
+</testng-results>
